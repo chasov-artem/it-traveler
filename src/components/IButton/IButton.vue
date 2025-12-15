@@ -1,3 +1,5 @@
 <template>
-  <button class="i-button">Click me</button>
+  <button class="bg-[#ffa279] rounded-xl py-[14px] px-10 text-white font-bold tracking-wide">
+    Почати роботу
+  </button>
 </template>
