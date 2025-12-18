@@ -1,5 +1,7 @@
 <template>
-  <button class="bg-[#ffa279] rounded-xl py-[14px] px-10 text-white font-bold tracking-wide">
+  <button
+    class="font-bold text-[16px] leading-[138%] tracking-[-0.03em] text-center text-white rounded-[12px] py-[14px] px-10 w-[196px] h-[56px] bg-[#ffa279]"
+  >
     Почати роботу
   </button>
 </template>

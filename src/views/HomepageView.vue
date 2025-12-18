@@ -5,7 +5,7 @@ import IButton from '../components/IButton/IButton.vue'
 <template>
   <main class="flex h-screen">
     <section class="flex-1 flex justify-center items-center px-5 bg-primary">
-      <div class="text-white text-center">
+      <div class="text-white text-center max-w-[540px] mx-auto">
         <img class="inline mb-6" src="../assets/img/map-pin.svg" alt="" />
         <h1 class="font-bold text-4xl mb-7">IT traveler</h1>
         <p class="leading-6 mb-11">
