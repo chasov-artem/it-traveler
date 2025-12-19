@@ -1,13 +1,15 @@
 <script setup>
 // import HomepageView from './views/HomepageView.vue'
 import FavoritePlaces from './components/FavoritePlaces/FavoritePlaces.vue'
-import IButton from './components/IButton/IButton.vue'
 </script>
 
 <template>
-  <div class="px-6">
-    <div class="text-gray mb-4">Додані маркери</div>
+  <!-- <HomepageView /> -->
+  <div class="bg-white h-screen w-[400px]">
+    <FavoritePlaces>
+      <div>THis is super slot</div>
+      <template v-slot:label>This is label</template>
+      <template #list>This is list</template>
+    </FavoritePlaces>
   </div>
-  <FavoritePlaces v-for="n in 4" :key="n" />
-  <IButton class="w-full mt-10">Додати маркер</IButton>
 </template>
